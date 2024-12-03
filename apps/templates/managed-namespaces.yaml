@@ -11,7 +11,7 @@ spec:
   source:
     path: managed-namespaces/overlays
     repoURL: {{ .Values.spec.source.repoURL }}
-    targetRevision: HEAD
+    targetRevision: main
   project: default
   syncPolicy:
     automated:

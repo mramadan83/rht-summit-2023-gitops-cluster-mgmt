@@ -13,7 +13,7 @@ spec:
     directory:
       recurse: true
     repoURL: {{ .Values.spec.source.repoURL }}
-    targetRevision: HEAD
+    targetRevision: main
   project: default
   syncPolicy:
     automated:

@@ -11,7 +11,7 @@ spec:
   source:
     path: argocd-projects/
     repoURL: {{ .Values.spec.source.repoURL }}
-    targetRevision: HEAD
+    targetRevision: main
   project: default
   syncPolicy:
     automated:
